@@ -1,0 +1,30 @@
+{
+  "name" : "ripnet/ipcontrolbundle",
+  "description" : "IPControl API Bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Tom Young",
+    "email" : "ripnet@gmail.com"
+  }],
+  "keywords" : [
+    "IPControl API"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+  },
+  "autoload" : {
+    "psr-0" : {
+      "ripnet\\IPControlBundle" : ""
+    }
+  },
+  "target-dir" : "ripnet/IPControlBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "1.0"
+    }
+  }
+}
